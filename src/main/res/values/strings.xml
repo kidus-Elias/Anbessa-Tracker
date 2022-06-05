@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BusTrackingSystem</string>
+    <string name="title_activity_driver_home">DriverHome</string>
+    <string name="title_activity_citizen_home">citizenHome</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="title_activity_track_bus">TrackBus</string>
+</resources>

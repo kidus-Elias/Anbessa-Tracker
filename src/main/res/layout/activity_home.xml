@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:background="@drawable/bkg"
+    android:gravity="center">
+
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/logow"
+        android:layout_marginBottom="0dp"/>
+    <LinearLayout
+        android:padding="0dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btn_c"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="Citizen"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:backgroundTint="@color/blue"
+            />
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/btn_d"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="Driver"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:backgroundTint="@color/blue"
+            />
+
+    </LinearLayout>
+    <ProgressBar
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/hbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:backgroundTint="#246EE9"
+        />
+
+  </LinearLayout>

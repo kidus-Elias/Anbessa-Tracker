@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:orientation="vertical"
+    android:background="@drawable/bkg"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+        <EditText
+            android:inputType="phone"
+            android:hint="BusNumber"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/bNum"
+            android:layout_width="220sp"
+            android:layout_height="60sp"
+            />
+        <EditText
+            android:hint="Transit"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/transit"
+            android:layout_width="220sp"
+            android:layout_height="60sp"
+            />
+        <EditText
+            android:inputType="phone"
+            android:hint="phone-912325679"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/pNums"
+            android:layout_width="220sp"
+            android:layout_height="60sp"
+            />
+        android:text="Don't have an account?"/>
+        <Button
+
+            android:layout_margin="5dp"
+            android:id="@+id/btn_signup"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue"/>
+            />
+        <ProgressBar
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/sbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:backgroundTint="#246EE9"
+            />
+    </LinearLayout>
+
+</LinearLayout>

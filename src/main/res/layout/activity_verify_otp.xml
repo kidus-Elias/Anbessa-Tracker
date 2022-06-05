@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyOtp"
+    android:background="@drawable/bkg"
+    android:gravity="center">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginVertical="100dp"
+        android:orientation="vertical">
+        <EditText
+            android:inputType="phone"
+            android:hint="OTP goes here"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/verifyotp"
+            android:layout_width="220sp"
+            android:layout_height="60sp"
+            />
+        <Button
+            android:id="@+id/btn_verify"
+            android:layout_width="100dp"
+            android:layout_height="60sp"
+            android:text="Verify"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:backgroundTint="@color/blue"
+            />
+        <ProgressBar
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/vbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:backgroundTint="#246EE9"
+            />
+    </LinearLayout>
+</LinearLayout>

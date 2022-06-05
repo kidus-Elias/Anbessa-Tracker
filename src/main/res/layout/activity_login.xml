@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/bkg"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="left"
+            android:layout_marginLeft="5dp"
+            android:text="Phone (+251)"
+            android:layout_marginVertical="0dp"
+            android:layout_width="220sp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            />
+        <EditText
+
+            android:inputType="phone"
+            android:hint="912345678"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/pnum"
+            android:layout_width="220sp"
+            android:layout_height="60sp"
+            />
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="100dp"
+            android:layout_height="60sp"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="#FFF"
+            android:backgroundTint="#246EE9"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/s"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:text="Don't have an account?"
+            />
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Sign Up"
+                android:textAllCaps="false"
+                android:textSize="11sp"
+                android:textColor="#FFF"
+                android:backgroundTint="#246EE9"
+
+                />
+        </LinearLayout>
+        <ProgressBar
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:backgroundTint="#246EE9"
+            />
+    </LinearLayout>
+
+</LinearLayout>
